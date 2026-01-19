@@ -1,0 +1,392 @@
+/* ===== Montserrat Fonts ===== */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/plugin/fonts/montserrat/Montserrat-ExtraBold.eot');
+    src: url('../assets/plugin/fonts/montserrat/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-ExtraBold.woff') format('woff'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-ExtraBold.ttf') format('truetype'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-ExtraBold.svg#Montserrat-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/plugin/fonts/montserrat/Montserrat-Bold.eot');
+    src: url('../assets/plugin/fonts/montserrat/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-Bold.woff') format('woff'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-Bold.ttf') format('truetype'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-Bold.svg#Montserrat-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/plugin/fonts/montserrat/Montserrat-SemiBold.eot');
+    src: url('../assets/plugin/fonts/montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-SemiBold.woff') format('woff'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-SemiBold.ttf') format('truetype'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../assets/plugin/fonts/montserrat/Montserrat-Medium.eot');
+    src: url('../assets/plugin/fonts/montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-Medium.woff') format('woff'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-Medium.ttf') format('truetype'),
+        url('../assets/plugin/fonts/montserrat/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ===== Overhide Color Vriables ===== */
+:root {
+    --bs-primary-rgb: 35, 166, 240;
+    /* #23A6F0 */
+    --bs-secondary-rgb: 37, 43, 66;
+    /* #252B42 */
+    --bs-light-rgb: 115, 115, 115;
+    /* #737373 */
+    --bs-info-rgb: 142, 194, 242;
+    /* #8EC2F2 */
+    --bs-warning-rgb: 243, 205, 3;
+    /* #F3CD03 */
+    --bs-success-rgb: 45, 192, 113;
+    /* #2DC071 */
+    --bs-border-color: #E5E5E5;
+}
+
+/* ===== Overhide Bootstrap classes ===== */
+.row.gx-5 {
+    --bs-gutter-x: 1.875rem !important;
+}
+
+.row.gy-5 {
+    --bs-gutter-y: 1.875rem !important;
+}
+
+.row.g-5 {
+    --bs-gutter-x: 1.875rem !important;
+    --bs-gutter-y: 1.875rem !important;
+}
+
+.row.gx-4 {
+    --bs-gutter-x: 1.25rem !important;
+}
+
+.row.gy-4 {
+    --bs-gutter-y: 1.25rem !important;
+}
+
+.row.g-4 {
+    --bs-gutter-x: 1.25rem !important;
+    --bs-gutter-y: 1.25rem !important;
+}
+
+.btn {
+    --bs-btn-font-size: 14px;
+    --bs-btn-font-weight: 700;
+    --bs-btn-line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+.shadow {
+    --bs-box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 0, 0, 0.25);
+}
+
+.form-control {
+    font-size: 14px;
+    line-height: 24px !important;
+    font-weight: 500;
+    height: 3.125rem !important;
+    min-height: 3.125rem !important;
+    background-color: #F9F9F9;
+}
+
+.form-control,
+.form-control:focus,
+.form-floating>label {
+    padding: 0.75rem 1.25rem !important;
+}
+
+.form-control:focus,
+.form-floating>.form-control:not(:placeholder-shown) {
+    padding-top: 1.25rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1075px;
+    }
+}
+
+/* ===== Common Styles ===== */
+body {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2px;
+}
+
+section {
+    padding: 112px 0;
+}
+
+.view-h1 {
+    font-size: 58px;
+    line-height: 80px;
+    font-weight: 800;
+}
+
+.view-h2 {
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.view-h3 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.view-h4,
+.para-lg {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.view-h5 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.view-h2,
+.view-h3,
+.view-h4,
+.view-h5 {
+    font-weight: 700;
+}
+
+a {
+    color: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a,
+.view-h6 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+textarea.form-control {
+    height: auto !important;
+    resize: none;
+}
+
+.bg-light-gray {
+    background-color: #FAFAFA;
+}
+
+/* ===== Navbar ===== */
+header {
+    margin-bottom: -90px;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url('../assets/images/hero-bg.jpg') center / cover no-repeat;
+    padding-top: 215px;
+}
+
+/* ===== Review Section ===== */
+.review-section .review-card {
+    padding: 30px 40px;
+}
+
+.review-section .review-avtar {
+    top: 28px;
+    right: calc(100% - 25px);
+}
+
+/* ===== Project Section ===== */
+.project-section .project-card {
+    background: linear-gradient(to bottom, transparent 15%, rgba(56, 56, 56, 0.84)),
+        var(--project-image) bottom center / cover no-repeat;
+}
+
+.project-section .row>div:nth-child(1) .project-card {
+    --project-image: url('../assets/images/project-1.jpg');
+}
+
+.project-section .row>div:nth-child(2) .project-card {
+    --project-image: url('../assets/images/project-2.jpg');
+}
+
+.project-section .row>div:nth-child(3) .project-card {
+    --project-image: url('../assets/images/project-3.jpg');
+}
+
+.project-section .row>div:nth-child(4) .project-card {
+    --project-image: url('../assets/images/project-4.jpg');
+}
+
+.project-section .project-card .project-content-box {
+    margin-top: 84%;
+}
+
+/* ===== Pricing Section ===== */
+.pricing-section .bullet-checkmark {
+    max-height: 32px;
+    max-width: 32px;
+    min-height: 32px;
+    min-width: 32px;
+}
+
+.pricing-section .bullet-checkmark.bg-gray {
+    background-color: #BDBDBD;
+}
+
+.pricing-section .pricing-card {
+    border: 1px solid #DEDEDE;
+}
+
+.pricing-section .pricing-new-label {
+    background-color: #E77C40;
+    max-height: 90px;
+    min-height: 90px;
+    max-width: 90px;
+    min-width: 90px;
+    top: -24px;
+    right: 16px;
+}
+
+/* ===== Contact Section ===== */
+.contact-section {
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%), url('../assets/images/contact-bg.jpg') right top / cover no-repeat;
+    padding: 90px 0;
+}
+
+.contact-section .contact-inner {
+    max-width: 600px;
+}
+
+/* ===== Media Query ===== */
+@media (max-width: 1199.98px) {
+    .view-h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .para-lg {
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    section {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .features-section .img-fluid {
+        max-width: 50px;
+    }
+
+    .pricing-section .pricing-new-label {
+        max-height: 80px;
+        min-height: 80px;
+        max-width: 80px;
+        min-width: 80px;
+        top: -16px;
+        right: 16px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .container,
+    .container-fluid {
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+
+    section,
+    .contact-section {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .view-h1 {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .view-h2 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .view-h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .review-section .review-avtar {
+        top: 28px;
+        right: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .btn {
+        --bs-btn-font-size: 12px;
+        --bs-btn-line-height: 16px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .hero-section {
+        background: linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url('../assets/images/hero-bg.jpg') center / cover no-repeat;
+    }
+
+    .pricing-section .pricing-new-label {
+        max-height: 65px;
+        min-height: 65px;
+        max-width: 65px;
+        min-width: 65px;
+    }
+
+    .pricing-section .bullet-checkmark {
+        max-height: 24px;
+        max-width: 24px;
+        min-height: 24px;
+        min-width: 24px;
+    }
+
+    .pricing-section .bullet-checkmark i {
+        font-size: 12px;
+    }
+}
